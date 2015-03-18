@@ -3,6 +3,7 @@ body {
     text-align: center;
     padding: 0 25px;
     font-family: arial, sans-serif;
+    font-size: 12px;
 }
 
 #main {
@@ -59,17 +60,17 @@ form input[type=text] {
     padding: 5px;
 }
 
-.chat {
+.chats {
     padding: 5px;
     margin-bottom: 5px;
     background-color: #eee;
 }
 
-.chat .username {
+.chats .username {
     font-weight: 800;
 }
 
-.chat:hover {
+.chats:hover {
     background-color: #ddd;
 }
 
@@ -81,4 +82,39 @@ form input[type=text] {
 
 .spinner img {
     padding: 10px;
+}
+
+.user {
+    display: block;
+}
+
+.friend {
+    font-weight: bold;
+}
+
+.login { 
+    background-color:#ddffdd;
+    padding:5px 10px 5px 10px;
+    margin-bottom:5px;
+}
+
+.messageOutput {
+    margin-top:5px;
+    background-color:#eee;
+    padding:5px 10px 5px 10px;
+}
+
+#messageInput { 
+    margin-top:5px;
+    background-color:#ddffdd;
+    padding:5px 10px 5px 10px;
+}
+
+#messageInput .messageInputText { 
+    width: 60%;
+}
+
+.goButton {
+    background-color: #aaeeaa;
+    border-radius: 10px;
 }
